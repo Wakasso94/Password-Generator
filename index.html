@@ -1,13 +1,13 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
-<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+<head>
 	<link rel="stylesheet" href="index.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;400;600;800&family=Roboto:wght@500;700&display=swap"
-	 rel="stylesheet">
-    <script src="https://kit.fontawesome.com/16dc120f09.js" crossorigin="anonymous"></script>
-     
+	<link
+		href="https://fonts.googleapis.com/css2?family=Karla:wght@200;400;600;800&family=Roboto:wght@500;700&display=swap"
+		rel="stylesheet">
 </head>
 
 <body>
@@ -17,10 +17,12 @@
 		<button id="btn" onclick="generateNumber()">Generate passwords</button>
 		<span class="line"></span>
 		<div class="password">
-			<input type="text" id="password1" class="btn-input" placeholder="create password">
-			<i class="fa-light fa-copy"></i>
-			<input type="text" id="password2" class="btn-input" placeholder="create password">
-			<i class="fa-light fa-copy"></i>
+			<input type="text" id="password1" placeholder="create password 1">
+			<input type="text" id="password2" placeholder="create password 2">
+		</div>
+		<div class="copy">
+			<button id="copy1" onclick="copyPassword()">Copy password 1</button>
+			<button id="copy2" onclick="copyPassword2()">Copy password 2</button>
 		</div>
 
 	</div>

@@ -77,6 +77,18 @@ body {
     border: none;
     padding-left: 15px
 }
+#copy1, #copy2 {
+    color: white;    
+    width: 225px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
+    margin-right: 24px;
+    border: none;
+    padding-left: 15px;
+    margin-top: 24px;
+    background: #10B981;
+}
  #password2:hover, #password1:hover {
      border: 1px solid #10B981;
  }
@@ -85,8 +97,3 @@ body {
      background:  #10B981;
      color: white;  
  }
-
-i {
-    color: #10B981;
-    width: 17px;
-}
